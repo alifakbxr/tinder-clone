@@ -1,11 +1,10 @@
 import React from 'react';
 import { RecoilRoot } from 'recoil';
-import AppNavigator from '../src/navigation/AppNavigator';
 
 export default function AppEntry() {
   return (
     <RecoilRoot>
-      <AppNavigator />
+      {/* App content will be handled by Expo Router in _layout.tsx */}
     </RecoilRoot>
   );
 }
